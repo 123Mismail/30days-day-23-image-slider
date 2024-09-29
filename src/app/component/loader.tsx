@@ -1,13 +1,10 @@
 
-
 import React from 'react'
 
-const Loader = () => {
+const Loader = ({className}:any) => {
   return (
     <div>
-        <div className='h-10 w-10 bg-white rounded-full border-t-2 border-t-black rotate animate-spin'>
-
-        </div>
+        <div className={`h-8 w-8 rounded-full  rotate animate-bounce border-t-4 shadow-2xl  ${className} border-b-2 border-b-black`}></div>
     </div>
   )
 }

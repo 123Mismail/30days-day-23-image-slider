@@ -1,13 +1,12 @@
 
  
 import React from 'react'
- 
-import FoodRecipe from './component/foodRecipe'
+import WordCounter from './component/wordCounter'
 
 const Page = () => {
   return (
     <div>
-   <FoodRecipe/>
+   <WordCounter/>
     </div>
   )
 }
