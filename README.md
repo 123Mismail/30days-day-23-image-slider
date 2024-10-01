@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 "# 30-day-challange-day-19-profile-viewer" 
 "# 30day-day-21-recipe-search" 
 "# 30day-day22-word-counter" 
+"# 30days-day-23-image-slider" 

@@ -4,5 +4,33 @@
  
 
 .custom{
-  background-image: url('/bg.avif');
+  background-image: url('/bg1.jpeg'); 
+  border-image-slice: fill;
+}
+.carousel-item {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 50;
+  transform: scale(0.95);
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.globe {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 150, 255, 0.7) 30%, rgba(0, 0, 0, 0.5) 70%);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }

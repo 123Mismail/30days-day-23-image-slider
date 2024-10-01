@@ -1,12 +1,13 @@
 
  
 import React from 'react'
-import WordCounter from './component/wordCounter'
+
+import ImagesSlider from './imagesSlider'
 
 const Page = () => {
   return (
     <div>
-   <WordCounter/>
+   <ImagesSlider/>
     </div>
   )
 }
